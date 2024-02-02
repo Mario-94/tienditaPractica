@@ -1,0 +1,10 @@
+.header {
+  display: grid;
+  grid-template-rows: auto 2fr auto;
+  min-height: 100vh;
+}
+.footer {
+  padding: 1em 0;
+  /* border: 1px solid red;} */
+  text-align: center;
+}
