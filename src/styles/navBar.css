@@ -1,1 +1,15 @@
+.alignText {
+  margin-top: 10px;
+  padding: 10px;
+  align-items: flex-end;
+  justify-content: end !important;
+}
+.containerButton {
+  background-color: #ef4565;
+  transition: background-color 0.3s ease !important; /* Agrega una transición suave */
+}
 
+.containerButton:hover {
+  color: #fffffe !important;
+  background-color: #d63b59; /* Cambia el color de fondo al pasar el mouse */
+}
