@@ -1,0 +1,13 @@
+.productsContainer {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 200px));
+  gap: 10px;
+  background-color: #ef4565;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.375rem;
+}
+.productContent {
+  padding: 30px;
+}
