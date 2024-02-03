@@ -1,0 +1,13 @@
+.imageContact {
+  display: flex;
+  text-align: center;
+}
+.imageContact img {
+  object-fit: fill;
+}
+
+@media (max-width: 991.33px) {
+  .imageContact {
+    display: none;
+  }
+}

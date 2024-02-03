@@ -3,6 +3,7 @@
 }
 .cardBody {
   background-color: #fffffe;
+  border-radius: 0.375rem;
 }
 .cardBody h2 {
   color: #094067 !important;

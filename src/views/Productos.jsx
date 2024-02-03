@@ -21,8 +21,8 @@ const Productos = () => {
   };
 
   return (
-    <div className="container-fluid text-center ">
-      <h1>Productos</h1>
+    <div className="container-fluid  ">
+      <h1 className="container text-center">Productos</h1>
       <div className="cardContent">
         <div className="card card-body rouded-0 cardBody">
           <h2>lorem</h2>
@@ -30,8 +30,10 @@ const Productos = () => {
           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
         </div>
       </div>
-      <h2>Lo mas vendido</h2>
-      <section className="productsContainer">{renderText()}</section>
+      <h2 className="container text-center">Lo mas vendido</h2>
+      <div className="container-fluid productContent ">
+        <section className=" productsContainer">{renderText()}</section>
+      </div>
       <section className="container-fluid text-center mb-3">
         <span>Paginacion</span>
       </section>
