@@ -5,6 +5,22 @@
 }
 .footer {
   padding: 1em 0;
-  /* border: 1px solid red;} */
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contentLogos {
+  width: 4em;
+  margin: 0 0.5em;
+  margin-bottom: 5px;
+}
+
+.contentLogos img {
+  object-fit: cover;
+}
+
+.footerText {
+  width: 100%; /* Ocupar todo el ancho disponible */
 }
