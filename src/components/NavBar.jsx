@@ -32,6 +32,11 @@ const NavBar = () => {
                   <h6>Productos</h6>
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to={"contacto"}>
+                  <h6>Contacto</h6>
+                </Link>
+              </li>
             </ul>
             <form className="d-flex" role="search">
               <input
