@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styles/navBar.css";
-import { Cart } from "./Cart";
-import { CartIcon } from "../Icons/Icons";
+import { CarritoCompras } from "../Icons/Icons";
+// import { Cart } from "./Cart";
 
 const NavBar = () => {
   return (
@@ -41,7 +41,10 @@ const NavBar = () => {
               </li>
               <li className="nav-item text-center border">
                 <Link className="nav-link">
-                  <CartIcon />
+                  <label className="cart-button">
+                    carrito
+                    <CarritoCompras />
+                  </label>
                 </Link>
               </li>
             </ul>
