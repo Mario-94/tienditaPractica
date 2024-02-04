@@ -8,13 +8,15 @@ import Home from "./views/Home";
 import Productos from "./views/Productos";
 import NotFound from "./views/NotFound";
 import Contact from "./views/Contact";
+import { CartProvider } from "./context/cars";
 
 function App() {
   return (
-    <>
+    <CartProvider>
       <BrowserRouter>
         <div className="header">
           <NavBar />
+
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/productos" element={<Productos />} />
@@ -24,7 +26,7 @@ function App() {
         </div>
       </BrowserRouter>
       <Footer />
-    </>
+    </CartProvider>
   );
 }
 
