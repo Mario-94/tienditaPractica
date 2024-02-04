@@ -1,7 +1,6 @@
 import "../styles/footer.css";
-import facebook from "../assets/facebook.svg";
-import mail from "../assets/mail.svg";
-import whatsApp from "../assets/whatsApp.svg";
+import "../styles/icons.css";
+import { Face, Mail, Tel } from "../Icons/Icons";
 
 const Footer = () => {
   return (
@@ -9,17 +8,18 @@ const Footer = () => {
       <footer className="footer bg-light">
         <div className="contentLogos">
           <a href="http://" target="_blank" rel="noopener noreferrer">
-            <img src={facebook} alt="" className="container-fluid" />
+            <Face />
           </a>
         </div>
         <div className="contentLogos">
           <a href="http://" target="_blank" rel="noopener noreferrer">
-            <img src={mail} alt="" className="container-fluid" />
+            <Mail />
           </a>
         </div>
         <div className="contentLogos">
           <a href="http://" target="_blank" rel="noopener noreferrer">
-            <img src={whatsApp} alt="" className="container-fluid" />
+            {/* <img src={whatsApp} alt="" className="container-fluid" /> */}
+            <Tel />
           </a>
         </div>
 

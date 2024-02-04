@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
 import "../styles/navBar.css";
-import { CarritoCompras } from "../Icons/Icons";
-// import { Cart } from "./Cart";
+import { CartIcon } from "../Icons/Icons";
 
 const NavBar = () => {
   return (
     <>
-      <nav className="navBar navbar navbar-expand-lg bg-body-tertiary mb-3 ">
-        <div className="container-fluid">
+      <nav className=" navbar navbar-expand-lg bg-body-tertiary mb-3  ">
+        <div className="container-fluid ">
           <Link className="navbar-brand" to={"/"}>
             <h3>Tienda X</h3>
           </Link>
@@ -23,7 +22,7 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse  " id="collapse">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 alignText ">
+            <ul className="navbar-nav ms-auto  alignText ">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to={"/"}>
                   <h6>Inicio</h6>
@@ -39,12 +38,9 @@ const NavBar = () => {
                   <h6>Contacto</h6>
                 </Link>
               </li>
-              <li className="nav-item text-center border">
-                <Link className="nav-link">
-                  <label className="cart-button">
-                    carrito
-                    <CarritoCompras />
-                  </label>
+              <li className="nav-item text-center containerIcons ">
+                <Link className="nav-link " to={"carritoCompras"}>
+                  <CartIcon />
                 </Link>
               </li>
             </ul>
