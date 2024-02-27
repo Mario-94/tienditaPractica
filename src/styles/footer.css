@@ -9,18 +9,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  width: 100%;
 }
-
 .contentLogos {
   width: 3em;
   margin: 0 0.5em;
   margin-bottom: 5px;
 }
-
 .contentLogos img {
   object-fit: cover;
 }
-
 .footerText {
-  width: 100%; /* Ocupar todo el ancho disponible */
+  width: 100%;
 }

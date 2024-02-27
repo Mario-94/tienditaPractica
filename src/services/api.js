@@ -16,6 +16,8 @@ export const fetchProductos = async () => {
         throw error
     }
 }
+
+
 const urlPrueba = "https://jsonplaceholder.typicode.com/users/1"
 export const fetchUsuarios = async () => {
     try {
@@ -32,3 +34,4 @@ export const fetchUsuarios = async () => {
         throw error
     }
 }
+
